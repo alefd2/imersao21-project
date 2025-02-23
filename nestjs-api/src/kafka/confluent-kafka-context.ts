@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-return */
 import { BaseRpcContext } from '@nestjs/microservices';
 import * as kafkaLib from '@confluentinc/kafka-javascript';
 import { KafkaMessage } from '@nestjs/microservices/external/kafka.interface';
