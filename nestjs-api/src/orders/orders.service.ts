@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unnecessary-type-assertion */
+/* eslint-disable @typescript-eslint/await-thenable */
 import { Injectable, OnModuleInit } from '@nestjs/common';
 import { CreateOrderDto } from './dto/create-order.dto';
 import { InjectConnection, InjectModel } from '@nestjs/mongoose';
@@ -191,3 +193,6 @@ export class OrdersService implements OnModuleInit {
     }
   }
 }
+
+
+ 
